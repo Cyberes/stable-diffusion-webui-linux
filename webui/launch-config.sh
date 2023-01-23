@@ -1,0 +1,10 @@
+MODEL_STORAGE_DIR="/mnt/storage/Models"          # Where to store your model checkpoints.
+LINK_NOVELAI_ANIME_VAE=true                      # Enables the linking of animevae.pt to each of the NovelAI models.
+ACTIVATE_DEEPDANBOORU=false                      # Enable and install DeepDanbooru -> https://github.com/KichangKim/DeepDanbooru
+ACTIVATE_MEDVRAM=true                            # Enable medvram option.
+DISABLE_PICKLE_CHECK=false                       # Disable the automatic check for unexpected data in model files.
+GRADIO_PORT=7860                                 # Launch Gradio on a specific port. Set to False to let Gradio choose a port.
+GRADIO_AUTH=false                                # Enable gradio_auth and insecure-extension-access option.
+UI_THEME=false                                   # Set the WEB UI theme. Values can be None (default) or "dark".
+INSECURE_EXTENSION_ACCESS=true                   # Force enable extensions without a password.
+EXPORT_STORAGE_DIR="/mnt/storage/WebUI\ Exports" # Where the generated images will be exported to.
